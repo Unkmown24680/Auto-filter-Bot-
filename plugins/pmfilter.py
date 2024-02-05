@@ -1560,7 +1560,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "purchase":
         buttons = [[
-            InlineKeyboardButton('📲 contact owner', user_id=int(1720819569)')
+            InlineKeyboardButton('📲 contact owner', user_id=int(1720819569))
         ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='premium_info')
         ]]
